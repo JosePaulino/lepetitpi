@@ -24,7 +24,7 @@ a:hover {
   padding: 1rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #e7e7e7;
 }
 
@@ -59,7 +59,7 @@ a:hover {
 
 .contato {
   height: 400px;
-  background-color: rgba(216, 136, 136, 0.404);
+  background-color: rgb(219, 175, 175);
 }
 
 
