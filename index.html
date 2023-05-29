@@ -5,12 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="slider.css">
   
   <title>Document</title>
 </head>
 <body>
   <header id="header">
-    <a id="logo" href="">Logo</a>
+    <a id="logo" href=""> <img src="imagem/LOGO-PRINCIPAL.png" alt=""></a>
     <nav id="nav">
       <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
         <span id="hamburguer"></span>
@@ -23,29 +24,70 @@
       </ul>
     </nav>
   </header>
-  <section class="topo">
-    <div class="topo1">topo</div>
-  </section>
-  <div class="sobre">
-    <h1>Lepetitp</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, enim explicabo, id expedita minima nesciunt numquam ullam error vitae, corrupti tempora? Quae sit aut eius ex qui ipsum suscipit reprehenderit!</p>
-  </div>
 
-  <div class="queridos">
-    <h2>Os Queridinhos</h2>
-    <p>melhores escolhas</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, enim explicabo, id expedita minima nesciunt numquam ullam error vitae, corrupti tempora? Quae sit aut eius ex qui ipsum suscipit reprehenderit!</p>
-  </div>
+  <main>
+    <section class="topo">
+      <div class="slider">
+        <div class="slides">
+    
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+    
+          <div class="slide first">
+            <img src="img/ag1.webp" alt="imagem1">
+          </div>
+          <div class="slide">
+            <img src="img/ag3.webp" alt="imagem2">
+          </div>
+          <div class="slide">
+            <img src="img/ca1.webp" alt="imagem3">
+          </div> 
+          <div class="slide">
+            <img src="img/fo1.webp" alt="imagem4">
+          </div>
+          
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+    
+        </div>
+    
+        <div class="manual-navigation">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+    
+      </div>
+    </section>
 
-  <div class="contato">
-    <h2>Entre em contato com a gente!</h2>
-    <p>para melhor atende</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, enim explicabo, id expedita minima nesciunt numquam ullam error vitae, corrupti tempora? Quae sit aut eius ex qui ipsum suscipit reprehenderit!</p>
-  </div>
 
+    <div class="sobre">
+      <h1>Lepetitp</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, enim explicabo, id expedita minima nesciunt numquam ullam error vitae, corrupti tempora? Quae sit aut eius ex qui ipsum suscipit reprehenderit!</p>
+    </div>
+
+    <div class="queridos">
+      <h2>Os Queridinhos</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, enim explicabo, id expedita minima nesciunt numquam ullam error vitae, corrupti tempora? Quae sit aut eius ex qui ipsum suscipit reprehenderit!</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="contato">
+      <h2>Entre em contato com a gente!</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, enim explicabo, id expedita minima nesciunt numquam ullam error vitae, corrupti tempora? Quae sit aut eius ex qui ipsum suscipit reprehenderit!</p>
+    </div>
+  </footer>
   
 
-
+  <script src="slider.js"></script>
   <script src="script.js"></script>    
 </body>
 </html>
