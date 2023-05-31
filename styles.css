@@ -5,7 +5,6 @@
 }
 
 body {
-  background-color: rgb(30, 210, 69);
   max-width: 900px;
   margin: auto;
 }
@@ -41,7 +40,6 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #e7e7e7;
 }
 
 #menu {
@@ -59,18 +57,12 @@ a:hover {
   display: none;
 }
 
-.topo {
-  background-color: tomato;
-}
-
 .sobre {
   height: 270px;
   width: 900px;
-  background-color: rgb(255, 71, 224);
-  display: inline-flex;
-  padding: 20px 0 20px 0;
+  display: flex;
+  padding: 30px 0 0 0;
   justify-content: center;
-
 }
 
 .imgSobre {
@@ -81,48 +73,69 @@ a:hover {
   width: 400px;
   height: 220px;
   margin-top: 2px;
-  border: 2px rgb(95, 85, 85) solid;
   border-radius: 6px;
-  background-color: blue;
   padding: 5px;
   box-shadow: 0 0 8px 1px #4c4c53;
 }
 
 .queridos {
-  background-color: crimson;
+  padding-top: 40px;
 }
 
 /*====  CONTATO ============================ */
 .contato {
   height: 300px;
-  background-color: rgb(219, 175, 175);
+
 }
 
 .contGrid {
   height: 210px;
-  width: 400px;
-  background-color: blueviolet;
+  width: 600px;
   display: inline-flex;
-}
-
-.textCont {
-  width: 200px;
 }
 
 h2 {
   margin: 0 0 25px 0;
+  font-size: 30px;
+}
+
+.textCont {
+  width: 600px;
 }
 
 .ptextCont {
   margin-bottom: 30px;
 }
 
+.buttonWhats {
+  background-color: rgb(42, 172, 0);
+  height: 50px;
+  width: 185px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.imgWhats {
+  padding: 0 8px 0 5px;
+}
+
+.buttonWhats:hover {
+  background: rgb(36, 112, 10);
+  border: 1px solid #6c4949;
+}
+
 .links {
-  background-color: coral;
+
   height: 210px;
   width: 230px;
   display: inline-flex;
   justify-content: center;
+  padding: 0 0 0 50px;
 }
 
 li.linksl {
@@ -145,6 +158,11 @@ li.linksl {
 
 p.pcont {
   padding: 0 0 0 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
 
 /*====  @MEDIA ============================ */

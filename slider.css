@@ -9,7 +9,7 @@ section {
 
 .slider {
   margin: 0 auto;
-  width: 640px;
+  width: 900px;
   height: 400px;
   overflow: hidden;
 }
@@ -31,12 +31,12 @@ section {
 }
 
 .slide img {
-  width: 640px;
+  width: 900px;
 }
 
 .manual-navigation {
   position: absolute;
-  width: 640px;
+  width: 900px;
   margin-top: -40px;
   display: flex;
   justify-content: center;
@@ -84,7 +84,7 @@ section {
 
 .navigation-auto {
   position: absolute;
-  width: 640px;
+  width: 900px;
   margin-top: 360px;
   display: flex;
   justify-content: center;
