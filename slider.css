@@ -32,6 +32,7 @@ section {
 
 .slide img {
   width: 900px;
+  border-radius: 10px;
 }
 
 .manual-navigation {
